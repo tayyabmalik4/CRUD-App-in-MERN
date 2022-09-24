@@ -1,0 +1,38 @@
+.addusermain{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5rem;
+    align-items: flex-start;
+    height: 100vh;
+    /* width: 50%; */
+    margin: auto;
+    /* background-color: red; */
+}
+
+.addusermain .headingmain{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: start;
+    color: var(--headingColor);
+}
+.addusermain .form{
+    display: flex;
+    flex-direction: column;
+
+}
+.addusermain .inputfield{
+    padding: 1rem;
+    margin: 0.5rem 0rem;
+    width: 20rem;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid rgb(131, 125, 125);
+}
+.addusermain .btnform{
+    padding: 0.5rem;
+    width: 5rem;
+    background-color: var(--headingColor);
+    color: white;
+    cursor: pointer;
+}

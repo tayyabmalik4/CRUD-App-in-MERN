@@ -1,0 +1,26 @@
+.navbarmain{
+    background-color: #111111;
+    height: 5rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+.navbarmain .navlinks{
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.navbarmain .active{
+    border-bottom: 1px solid white;
+    /* background-color: green !important;
+    color: red !important; */
+}
+
+/* .navbarmain .navlinks:hover{
+    border-bottom: 1px solid white;
+} */
